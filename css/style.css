@@ -33,9 +33,16 @@ header{
   margin: 0;
 }
 
+.main-navigation{
+    display: flex;
+}
+
 .main-navigation ul{
     list-style: none;
     margin: 0;
+    gap: 28px;
+    align-items: flex-end;
+    display: flex;
 }
 
 .main-navigation li{
@@ -58,4 +65,14 @@ header{
     border-color: #ace2e1;
 }
 
-.site-header
+.site-header-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-menu{
+    display: flex;
+    align-items:center ;
+    gap: 15px;
+}
+
