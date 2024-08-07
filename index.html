@@ -4,38 +4,156 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MediCare</title>
-    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="./css/syle.css" />
   </head>
   <body>
     <div>
       <header>
-        <div class="container site-header-main">
-          <p>MediCare</p>
-          <nav id="site-navegation" class="main-navigation">
-            <img src="https://placehold.co/180x180" alt="">
-            <ul id="menu-principal" class="primary-menu">
-              <li><a href="">Home</a></li>
-              <li><a href="">Sobre</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href="">FAQ</a></li>
-            </ul>
-          </nav>
-          <div class="sec-menu">
-            <p><ion-icon name="search-outline"></ion-icon></p>
-            <p><ion-icon name="search-outline"></ion-icon></p>
-            <p><ion-icon name="search-outline"></ion-icon></p>
-            <p>Consulta Online</p>
-            <p>Login paciente</p>
-            <p>Login Médico</p>
+        <div id="divLogo">
+          <img src="img/Logotipo.png" alt="" />
+        </div>
+
+        <nav id="divMenu">
+          <ul id="menu-principal" class="primary-menu">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <div id="divBotoes">
+          <button id="btnConsulta" class="btnMenu">
+            <ion-icon name="search-outline"></ion-icon>
+            <span class="labelBtn">Consulta Online</span>
+          </button>
+          <button id="btnPaciente" class="btnMenu">
+            <ion-icon name="person-outline"></ion-icon>
+            <span class="labelBtn">Login Paciente</span>
+          </button>
+          <button id="btnMedico" class="btnMenu">
+            <ion-icon name="medkit-outline"></ion-icon>
+            <span class="labelBtn">Médico</span>
+          </button>
+        </div>
+      </header>
+
+      <div id="divBanner">
+        <img src="img/Banner.png" alt="" />
+      </div>
+
+      <div id="divAgendamento">
+        <p><strong>Agende ou Inicie sua Consulta Aqui</strong></p>
+        <button id="segundoMenu" class="btnMenu2">
+          <ion-icon name="caret-down-outline"></ion-icon>
+          <span class="especialidade">Escolha uma especialidade</span>
+        </button>
+        <button id="segundoMenu" class="btnMenu2">
+          <ion-icon name="search-outline"></ion-icon>
+          <span class="pesquisa">Pesquisa</span>
+        </button>
+        <button id="segundoMenu" class="btnMenu2">
+          <ion-icon name="call-outline"></ion-icon>
+          <span class="telefone">Ligue Agora, Marque sua Consulta </span>
+        </button>
+        <div id="descricao">
+          <br />
+          <p>
+            Não encontrou seu médico? Fale conosco através do telefone agora:
+            0800 123 4356 ou pelo whatsapp: (14) 36028600
+          </p>
+        </div>
+        <div id="image">
+          <img src="img/Aqui_voce_encontra.png" alt="" />
+          <br />
         </div>
       </div>
-    </header>
+      <div id="imageService">
+        <img src="img/localização2.png" alt="" />
+        <img src="img/lista.png" alt="" />
+        <img src="img/valor.png" alt="" />
+      </div>
+      <div id="divQuestions">
+        <p>Possíveis questionamentos:</p>
+      </div>
+      <div id="divPerguntas">
+        <button>
+          <p>Quais são os melhores médicos da região?</p>
+          <ion-icon name="caret-down-outline"></ion-icon>
+        </button>
+        <br />
+        <button>
+          <p>Quais clínicas possuem o preço mais acessível?</p>
+          <ion-icon name="caret-down-outline"></ion-icon>
+        </button>
+        <br />
+        <button>
+          <p>Quais hospitais são mais próximos da minha residência?</p>
+          <ion-icon name="caret-down-outline"></ion-icon>
+        </button>
+      </div>
+      <div id="divSobre">
+        <div class="sobre">
+          <p>Sobre nós:</p>
+        </div>
+        <div id="divQuemsomos">
+          <p>
+            Na era digital, a conveniência e a eficiência são essenciais,
+            especialmente quando se trata da sua saúde. Pensando nisso, criamos
+            o MediCare, uma plataforma inovadora que coloca sua saúde na palma
+            da sua mão.O MediCare é um site revolucionário projetado para
+            facilitar a sua jornada de saúde, permitindo que você agende
+            consultas, realize exames e acesse uma variedade de serviços médicos
+            de forma rápida e simples, tudo em um único lugar.
+            <br />
+            <br />
+            Nossa missão é tornar o cuidado com a saúde mais acessível,
+            eficiente e seguro. No MediCare, você encontra profissionais de
+            diversas especialidades e pode marcar suas consultas de forma
+            prática, sem complicações. Também é possível realizar exames
+            laboratoriais e de imagem, receber lembretes e acompanhar os
+            resultados diretamente pela plataforma. Além disso, oferecemos a
+            possibilidade de consultas online, permitindo que você se conecte
+            com médicos através de videochamadas, obtendo atendimento médico sem
+            sair de casa.
+            <br />
+            <br />
+            Nosso sistema de histórico médico garante que você tenha acesso
+            fácil e seguro aos seus registros de saúde, e nosso suporte 24H está
+            sempre disponível para ajudar. Junte-se ao MediCare e experimente um
+            novo jeito de cuidar de você e de sua família. Contudo, os
+            fundadores Rayssa Nanclares da Silveira, Emanuelly Vitória dos
+            Santos Lima e Ítalo Francesco, realizaram pesquisas e desenvolveram
+            esse projeto em equipe, pensando em facilitar os desafios de
+            encontrar o médico e a clínica adequada para atender as necessidades
+            de cada paciente.
+          </p>
+        <img src="https://placehold.co/360x300" alt="">
+        </div>
+      </div>
+      <div id="divRodape">
+        <p>MediCare site online</p>
+      </div>
+      <div id="divdadosRodape">
+        <p>
+          O site online MediCare baseia-se na diretiva de ser apenas
+          portal de telemedicina e de conexão entre pacientes e médicos.
+          Portanto o mesmo segue as diretrizes do Conselho de Medicina Federal
+          e se apoia na Lei nº 13.989/20 e Resolução CFM nº2.227/2018 para
+          atuação.
+        </p>
+      </div>
     </div>
   </body>
-  <script type="module"
-        src="https://upkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-></script>
-  <script nomodule
-     src="https://upkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
- ></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
 </html>
